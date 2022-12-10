@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<table class="table table-hover" id="tblemp">
+    <thead id="tblhead">
+      <tr>
+        <th class="thclass"><img id="option" src="option.png" style="width:20px;margin-top: -25px;cursor:pointer;" title="Shortcuts">
+		<div id="optionpane">
+		<br>
+		<br>
+		<div class="checkbox">
+		  <label><input id="chk1" type="checkbox" value="">Alphabetical Order URL</label> &nbsp;&nbsp; (Shortcut Key - Alt+U)
+		</div>
+		&nbsp;&nbsp; <span style="font-size:9px;color:red;">This will arrange your tabs in Alphabetical order with respect to the URL of the tab</span>
+		<br>
+		<br>
+		<hr>
+		<div class="checkbox">
+		  <label><input id="chk2" type="checkbox" value="">Alphabetical Order Title</label> &nbsp;&nbsp; (Shortcut Key - Alt+T)
+		</div>
+		<div class="checkbox" style="display:none;">
+		  <label><input id="chk3" type="checkbox" value="">Grouping Same Domain</label>
+		</div>
+		&nbsp;&nbsp; <span style="font-size:9px;color:red;">This will arrange your tabs in Alphabetical order with respect to the Title of the tab</span>
+		<br>
+		<br>
+		<hr>
+		Press ALT+O keys to open this extension
+		<br>
+		<br>
+		<br>
+		<hr>
+		Press Up/Down keys to navigate the list
+		<br>
+		<br>
+		<br>
+		<hr>
+		Press enter to select the tab
+		</div></th>
+        <th class="thclass"> <input id="searchbox" type="text" placeholder="Enter title, url, keywords"></th>
+        <th class="thclass"></th>
+      </tr>
+    </thead>
+  </table>
+  
+</body>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="jquery-ui.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+</html>
